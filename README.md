@@ -1,22 +1,20 @@
 # Ecommerce-statistical-analysis
-Статистичний аналіз поведінки клієнтів e-commerce
+A comprehensive statistical analysis of e-commerce data — from correlation analysis to hypothesis testing on conversion and user behavior.
+What was done:
 
-Комплексний статистичний аналіз даних інтернет-магазину: від кореляційного аналізу до перевірки гіпотез про конверсію та поведінку користувачів.
-Що зроблено:
+📊 Correlation analysis of key business metrics
 
-📊 Кореляційний аналіз ключових метрик бізнесу
+🧪 Mann-Whitney U and Kruskal-Wallis tests (with Dunn/Bonferroni correction) to compare user groups
 
-🧪 Mann-Whitney U та Kruskal-Wallis тести (з поправкою Dunn/Bonferroni) для порівняння груп користувачів
+📈 Z-tests for proportions — testing statistical significance of conversion differences
 
-📈 Z-тести для пропорцій — перевірка статистичної значущості відмінностей у конверсії
+💡 Business insights: revenue geographic concentration, traffic channel analysis, desktop vs mobile behavior, guest vs registered users, demand seasonality
 
-💡 Бізнес-інсайти: географічна концентрація доходу, аналіз каналів трафіку, поведінка desktop vs mobile, guest vs registered users, сезонність попиту
+Key findings:
 
-Ключові висновки:
+Strong dependence on organic traffic and the US market.
+Identified untapped potential markets (Trinidad & Tobago, Bulgaria).
+Guest users show higher activity than registered ones — a possible signup friction issue.
+Minimal repeat purchases — growth opportunity for CRM and retention strategies.
 
-Високий вплив органічного трафіку та ринку США на виручку
-Виявлено ринки з прихованим потенціалом (Тринідад і Тобаго, Болгарія)
-Незареєстровані користувачі активніші за зареєстрованих — можливий бар'єр у процесі реєстрації
-Майже відсутні повторні покупки — точка росту для CRM та retention-стратегій
-
-Стек: Python (pandas, scipy, statsmodels), Google Colab, BigQuery
+Stack: Python (pandas, scipy, statsmodels), Google Colab, BigQuery
